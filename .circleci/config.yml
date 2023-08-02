@@ -13,7 +13,7 @@ jobs:
           command: | 
             echo testing
             npm i
-            npm i enzyme2222
+            npm run bootstrap
             npm test
             
         
