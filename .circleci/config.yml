@@ -9,10 +9,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
+          name: "A test"
           command: | 
-            echo Hello, World!
-            echo Here is Damien
+            echo testing
+            npm test
             
         
 
