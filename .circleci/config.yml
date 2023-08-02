@@ -12,6 +12,7 @@ jobs:
           name: "A test"
           command: | 
             echo testing
+            npm i
             npm test
             
         
